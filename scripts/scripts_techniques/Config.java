@@ -43,14 +43,14 @@ package scripts_techniques;
 	 public static String PROJECT = "";
 	 public static String PAT = "";
 	 
-	 public static int Jira = 1;
+	 public static int Jira = 0;
 	 public static String JIRA_URL = "https://your-jira-url/rest/api/2/";
 	 public static String JIRA_USERNAME = "your user";
 	 public static String JIRA_API_TOKEN = "your api token";
 	 public static String JIRA_PROJECT_NAME = "your project";
 
 
-	 public static TYPE_Instance Type = TYPE_Instance.PREPROD;
+	 public static TYPE_Instance Type = TYPE_Instance.PROD;
 	
 	
  //out separator for log files

@@ -454,6 +454,7 @@ public class TextEngine {
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("prefs", chromePrefs);
         options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--disable-search-engine-choice-screen");
         options.setAcceptInsecureCerts(true);
         selfdriver = new ChromeDriver(options);
         //Create the Selenium implementation
@@ -563,6 +564,7 @@ public class TextEngine {
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("prefs", chromePrefs);
         options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--disable-search-engine-choice-screen");
         options.addArguments("--window-size=" + largeur + "," + hauteur);
 
         options.setAcceptInsecureCerts(true);
